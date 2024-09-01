@@ -99,7 +99,7 @@ body{
     font-size:18px;
     text-decoration: none;
     color: black;
-    font-weight: 800;
+    font-weight:200;
  }
 
  .img-product-name:hover{
@@ -110,12 +110,14 @@ body{
  .header-section{
     color:green;
     margin:auto;
+    text-align: center;
  }
  
  .sub-title{
    font-size: 18px;
    font-weight: 800;
    color: green;
+   text-align: center;
  }
  .image-container a{
    text-decoration: none;
