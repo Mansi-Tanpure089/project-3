@@ -1,0 +1,366 @@
+body{
+    background-color: #f8f5f2;
+    color:#33272a;
+    
+}
+
+.dmart-image{
+    width:95%;
+    height:500px;
+    border:5px solid lightgreen;
+    box-shadow: 0 0 5px 6px lightcoral;
+    text-align: center; 
+    justify-content:center;  
+    display:flex;
+    margin:0 auto 30px auto;
+    padding:5px;
+}
+.dmart-image:hover{
+    box-shadow: 0 0 4px 4px lightcoral;
+    transition:0.3s;
+}
+
+.img-div{
+    
+    padding: 10px;
+    justify-content:flex;
+}
+.premium{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:7px;
+    margin:9px auto;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(236, 211, 177);
+    border: 2px solid lightgreen;
+    width:95%;
+}
+
+.premium:hover{
+    background-color: antiquewhite;
+    
+}
+ .image-container{
+    margin:10px auto;
+    padding:10px;
+    width:50px;
+    display: flex;
+    justify-content:center;
+   
+ }
+ .image-container:hover{
+    box-shadow: #f3dfd6;
+    transition: 0.3s;
+ }
+
+ .product-img{
+    margin:0 auto ;
+    padding: 10px;
+    background-color:  #f3dfd6;
+    border: 2px solid slategrey;
+    text-align: center;
+    justify-content:space-evenly;
+    
+    
+ }
+
+ .product-img:hover{
+    box-shadow: 0px 0px 5px 5px lightcoral;
+    border-radius: 18px;
+ }
+
+ .monsoon-product-img{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height:230px;
+    width:80%;
+    margin:30px auto;
+    padding: 10px;
+    background-color:  #f3dfd6;
+    border: 2px solid slategrey;
+}
+.monsoon-product-img:hover{
+   box-shadow: 0px 0px 5px 5px lightcoral;
+   border-radius: 18px;
+}
+ .text-center{
+    align-items:flex-end;
+    margin:10px auto;
+    padding-bottom: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+ }
+
+ .img-product-name{
+    font-size:18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+ }
+
+ .img-product-name:hover{
+    color:cadetblue;
+    box-shadow: brown;
+ }
+
+ .header-section{
+    color:green;
+    margin:auto;
+ }
+ 
+ .sub-title{
+   font-size: 18px;
+   font-weight: 800;
+   color: green;
+ }
+ .image-container a{
+   text-decoration: none;
+ }
+
+ .fruits-div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 30px auto;
+   width: 82%;
+}
+.fruit-img{
+   display: flex;
+   flex-direction: row;
+   margin: 0px auto;
+   height: 250px;
+   width: 100%;
+   gap: 40px;
+}
+.fruit-name{
+   display: flex;
+   justify-content: row;
+   width: 50%;
+   height: 200px;
+   background-color:  #f3dfd6;
+   border: 2px solid slategrey;
+}
+.fruit-name:hover{
+   box-shadow: 0px 0px 5px 5px lightcoral;
+   border-radius: 18px;  
+}
+.fruit-img a{
+   margin: 15px;
+   width: 60%;
+}
+.fruit-name p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+.img{
+   height: 170px;
+}
+.product1-img{
+   color: lightpink;
+   background-color: aliceblue;
+   height:60px;
+   width:80%;
+   justify-content: center;
+}
+
+/* Media query for home page */
+@media screen and (max-width: 550px){
+   .header-section{
+      font-size: 30px;
+   }
+   .sub-title{
+      font-size: 16px;
+      padding: 0px 15px;
+   }
+   .dmart-image{
+      height:230px;
+   }
+  .premium{
+      font-size: 13px;
+   }
+   .image-container{
+      margin:10px auto;
+      padding:7px;
+      width:100%;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+   .product-img{
+      height: 35px;
+      padding: 5px; 
+   }
+   .img-product-name{
+      font-size: 15px;
+   }
+   .monsoon-product-img{
+       height:150px;
+       width:90%;
+   }
+   .fruits-div{
+      width: 90%;
+      height: 250px;
+   }
+   .fruit-img{
+      height: 220px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 100px;
+      text-align: center;
+   }
+   .fruit-name p{
+      display: none;
+   }
+   .img{
+      height: 70px;
+      width: 100px;
+   }
+}
+
+@media screen and (min-width: 551px) and (max-width: 950px){
+   .header-section{
+      font-size: 30px;
+   }
+   .sub-title{
+      font-size: 16px;
+      padding: 0px 15px;
+   }
+   .dmart-image{
+      height:260px;
+   }
+  .premium{
+      font-size: 13px;
+   }
+   .image-container{
+      margin:10px auto;
+      padding:7px;
+      width:100%;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+   .product-img{
+      height: 35px;
+      padding: 5px; 
+   }
+   .img-product-name{
+      font-size: 15px;
+   }
+   .monsoon-product-img{
+       height:150px;
+       width:90%;
+   }
+   .fruits-div{
+      width: 90%;
+      height: 250px;
+   }
+   .fruit-img{
+      height: 220px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 100px;
+   }
+   .fruit-name p{
+      display: flex;
+      font-size: 18px;
+      padding: 5px;
+   }
+   .img{
+      height: 70px;
+      width: 100px;
+   }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1300px){
+   .header-section{
+      font-size: 35px;
+   }
+   .sub-title{
+      font-size: 17px;
+      padding: 0px 15px;
+   }
+   .dmart-image{
+      height:350px;
+      width: 98%;
+   }
+  .premium{
+      font-size: 15px;
+      width:100%;
+   }
+   .image-container{
+      margin:10px auto;
+      padding:7px;
+      width:100%;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+   .product-img{
+      height: 45px;
+      padding: 10px; 
+   }
+   .img-product-name{
+      font-size: 16px;
+   }
+   .monsoon-product-img{
+       height:170px;
+       width:90%;
+   }
+   .fruits-div{
+      width: 90%;
+      height: 300px;
+   }
+   .fruit-img{
+      height: 250px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 130px;
+   }
+   .fruit-name p{
+      display: flex;
+      font-size: 22px;
+      padding: 5px;
+   }
+   .img{
+      align-items: center;
+      padding: 5px;
+      height: 110px;
+      width: 150px;
+   }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1300px){
+   .fruits-div{
+      width: 90%;
+      height: 350px;
+   }
+   .fruit-img{
+      height: 280px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 160px;
+   }
+   .fruit-name p{
+      display: flex;
+      font-size: 25px;
+      padding: 5px;
+   }
+   .img{
+      height: 140px;
+      width: 180px;
+   }
+}

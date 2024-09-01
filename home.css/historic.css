@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-family{
+    font-family: "Mulish", sans-serif;
+}
+
+/* Premium Picks section style */
+.main_premium_picks_container{
+    width: 100%;
+    background-color: #f8f5f2;
+}
+.premium_picks_container h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 10px;
+    color: #232323;
+}
+.product-card-container{
+   width: 97%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: #fffffe;
+   margin: 10px 20px;
+}
+.product-card{
+    margin: 20px 40px;
+    width: 250px;
+    height: 380px;
+    background-color: #f8f5f2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 5px;
+    border: #232323 solid 1px;
+}
+.product-card:hover{
+    box-shadow: 0px 0px 5px 5px #f3dfd6;
+}
+.img-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.product-img{
+    height: 130px;
+    margin: 10px;
+}
+.veg-icon{
+    position: absolute;
+    right: -28px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    z-index: 1;
+}
+.product-name{
+    margin: 10px;
+    color: #232323;
+    font-size: 15px;
+}
+.discount-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.price-with-taxes{
+    display: flex;
+    flex-direction: column;
+}
+.taxes{
+    margin: 5px 10px;
+    color: #6b6b6b;
+    font-size: 13px;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    font-size: 15px;
+}
+.mrp-price{
+    color: #6b6b6b;
+}
+.dmart{
+    font-weight: 600;
+    font-size: 17px;
+}
+.save-amt{
+    margin: 0px 10px;
+    padding: 7px;
+    background-color: #abe5e5;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #078080;
+    color: #232323;
+    border: none;
+    border-radius: 5px;
+}
+.add-to-cart img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+/* Products sub page */
+.product-desc-container{
+    background-color: #f8f5f2;
+    width: 100%;
+}
+.product-desc{
+    display: flex;
+}
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 30px 30px 100px;
+    height: 500px ;
+    width: 450px;
+    border: #232323 solid 1px;
+}
+.product-img-1{
+    margin: 30px;
+    height: 400px;
+}
+.product-info{
+    margin: 80px 100px 30px 30px;
+}
+.name-of-product{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.ml-gm{
+    font-weight: 200;
+}
+.sub-category{
+    font-size: 16px;
+    font-weight: 600;
+}
+.variant{
+    margin-top: 10px;
+    color: #6b6b6b;
+    font-size: 19px;
+}
+.weight{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: #078080 solid 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #078080;
+    margin-bottom: 25px;
+}
+.price-tag{
+    margin-top: 15px;
+    display: flex;
+    gap: 50px;
+}
+.mrp-price-1{
+    color: #6b6b6b;
+    font-size: 18px;
+}
+.taxes-include{
+    font-size: 15px;
+    color: #6b6b6b;
+}
+.bold-price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.value{
+    margin-left: 20px;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #6b6b6b;
+    background-color: rgba(107, 107, 107, 0.1);
+}
+.buy{
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.buy p{
+    padding: 10px;
+    margin-top: 10px;
+    height: 23px;
+    color: #078080;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(7, 128, 128, 0.2);
+}
+.cart{
+    width: 30%;
+    margin: 10px;
+}
+.vegetarian{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgba(107, 107, 107, 0.1);
+    border: none;
+}
+.vegetarian img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.desc-container{
+    margin: 30px 100px;
+}
+.desc-container h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.desc-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.more-desc{
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+/* Media queries for product's sub page */
+
+/* For Mobile Device */
+@media screen and (max-width: 767px){
+    .product-desc{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-div{
+        margin: 30px auto;
+        height: 250px ;
+        width: 250px;
+    }
+    .product-img-1{
+        margin: 30px;
+        height: 200px;
+    }
+    .product-info{
+        margin: 20px;
+    }
+    .name-of-product{
+        font-size: 18px;
+    }
+    .ml-gm{
+        font-weight: 200;
+    }
+    .sub-category{
+        font-size: 14px;
+    }
+    .variant{
+        font-size: 16px;
+    }
+    .weight{
+        padding: 7px 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .price-tag{
+        gap: 30px;
+    }
+    .mrp-price-1{
+        font-size: 15px;
+    }
+    .taxes-include{
+        font-size: 13px;
+    }
+    .bold-price{
+        font-size: 17px;
+    }
+    .value{
+        display: none;
+    }
+    .buy{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .buy p{
+        padding: 7px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 16px;
+    }
+    .cart{
+        width: 60%;
+        margin: 7px;
+    }
+    .vegetarian{
+        margin-top: 15px;
+        padding: 7px 15px;
+    }
+    .vegetarian img{
+        height: 12px;
+        width: 12px;
+    }
+    .desc-container{
+        margin: 20px;
+    }
+    .desc-container h3{
+        font-size: 17px;
+    }
+    .desc-heading{
+        font-size: 15px;
+    }
+    .more-desc{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+/* For Tablet */
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .image-div{
+        margin: 40px auto;
+        height: 350px ;
+        width: 300px;
+    }
+    .product-img-1{
+        height: 300px;
+    }
+    .product-info{
+        margin: 50px 30px;
+    }
+    .name-of-product{
+        font-size: 18px;
+    }
+    .ml-gm{
+        font-weight: 200;
+    }
+    .sub-category{
+        font-size: 14px;
+    }
+    .variant{
+        font-size: 16px;
+    }
+    .weight{
+        padding: 7px 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .price-tag{
+        gap: 30px;
+    }
+    .mrp-price-1{
+        font-size: 15px;
+    }
+    .taxes-include{
+        font-size: 13px;
+    }
+    .bold-price{
+        font-size: 17px;
+    }
+    .value{
+        display: none;
+    }
+    .buy{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .buy p{
+        padding: 7px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 16px;
+    }
+    .cart{
+        width: 60%;
+        margin: 7px;
+    }
+    .vegetarian{
+        margin-top: 15px;
+        padding: 7px 15px;
+    }
+    .vegetarian img{
+        height: 12px;
+        width: 12px;
+    }
+    .desc-container{
+        margin: 20px 40px;
+    }
+    .desc-container h3{
+        font-size: 18px;
+    }
+    .desc-heading{
+        font-size: 15px;
+    }
+    .more-desc{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1250px){
+    .image-div{
+        margin: 40px 100px 30px 50px;
+        height: 400px ;
+        width: 350px;
+    }
+    .product-img-1{
+        height: 350px;
+    }
+    .product-info{
+        margin: 50px 0px;
+    }
+    .name-of-product{
+        font-size: 20px;
+    }
+    .ml-gm{
+        font-weight: 200;
+    }
+    .sub-category{
+        font-size: 16px;
+    }
+    .variant{
+        font-size: 17px;
+    }
+    .weight{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .price-tag{
+        gap: 40px;
+    }
+    .mrp-price-1{
+        font-size: 16px;
+    }
+    .taxes-include{
+        font-size: 14px;
+    }
+    .bold-price{
+        font-size: 18px;
+    }
+    .buy{
+        width: 100%;
+    }
+    .buy p{
+        padding: 10px;
+        font-size: 18px;
+        margin-right: 50px;
+    }
+    .cart{
+        width: 400px;
+        margin: 10px;
+        padding: 11px;
+        font-size: 17px;
+    }
+    .vegetarian{
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+    .vegetarian img{
+        height: 15px;
+        width: 15px;
+    }
+    .desc-container{
+        margin: 20px 60px;
+    }
+    .desc-container h3{
+        font-size: 20px;
+    }
+    .desc-heading{
+        font-size: 18px;
+    }
+    .more-desc{
+        font-size: 16px;
+        text-align: justify;
+    }
+}
