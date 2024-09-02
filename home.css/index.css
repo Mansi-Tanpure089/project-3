@@ -7,7 +7,7 @@ body{
 .dmart-image{
     width:95%;
     height:500px;
-    border:5px solid lightgreen;
+    border:5px solid lightseagreen;
     box-shadow: 0 0 5px 6px lightcoral;
     text-align: center; 
     justify-content:center;  
@@ -34,7 +34,7 @@ body{
     display:flex;
     justify-content: center;
     background-color: rgb(236, 211, 177);
-    border: 2px solid lightgreen;
+    border: 2px solid lightseagreen;
     width:95%;
 }
 
@@ -67,7 +67,7 @@ body{
  }
 
  .product-img:hover{
-    box-shadow: 0px 0px 5px 5px lightcoral;
+    box-shadow: 0px 0px 5px 5px lightblue;
     border-radius: 18px;
  }
 
@@ -79,7 +79,7 @@ body{
     width:80%;
     margin:30px auto;
     padding: 10px;
-    background-color:  #f3dfd6;
+    background-color: lightsalmon;
     border: 2px solid slategrey;
 }
 .monsoon-product-img:hover{
@@ -108,7 +108,7 @@ body{
  }
 
  .header-section{
-    color:green;
+    color:brown;
     margin:auto;
     text-align: center;
  }
@@ -116,7 +116,7 @@ body{
  .sub-title{
    font-size: 18px;
    font-weight: 800;
-   color: green;
+   color: brown;
    text-align: center;
  }
  .image-container a{
